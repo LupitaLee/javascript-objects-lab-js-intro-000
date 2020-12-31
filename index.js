@@ -15,3 +15,7 @@ function deleteFromObjectByKey(object, key){
   delete clone [key];
   return clone;
 }
+
+function deleteFromObjectByKey(object, key){
+  delete [key];
+  return object}
